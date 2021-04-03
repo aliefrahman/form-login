@@ -1,0 +1,260 @@
+/*
+    Filename : styles.css
+    Date : 3 April 2021
+    Author : Aliefrahman
+    Email : aliefrahman@gmail.com
+    Web : http://aliefrahman.web.id 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body {
+    margin: 0;
+    overflow-y:hidden;
+    height: 100%;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    padding: 1em;
+    max-height: 100%; /* Should be removed. Only for demonstration */
+}
+.panel__left {
+    width: 30%;
+    background-color: #1E1D67;
+    max-height: 1280px;
+}
+.panel__right {
+    width: 70%;
+}
+
+.content {
+   padding: 2em;
+}
+.panel_description {
+    color: #ffffff;
+    margin-top: 5em;
+    font-size: 16pt;
+    font-weight: 600;
+}
+.logo__content {
+    width: 40px;
+    height: 40px;
+ }
+.logo__description {
+    position: relative;
+    top: -1.8em;
+    left: 2.1em;
+    font-size: 18pt;
+    font-weight: 600;
+    color: white;
+}
+
+.small__content {
+    margin-top: 1em;
+    font-size: 11pt;
+    font-weight: 200;
+    color: white;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.line__content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.line__content li {
+    float: left;
+}
+.line__content li a {
+    color: white;
+    padding: 6px 12px 0px 0px;
+    text-decoration: none;
+}
+.line__content li a:hover {
+    color: white;
+    text-decoration: none;
+}
+.social__content {
+    color: white;
+    margin-bottom: 5em;
+}
+.social__content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.social__content li {
+    float: left;
+}
+.social__content li a {
+    display: inline-block;
+    color: white;
+    padding: 6px 25px 0px 0px;
+    text-decoration: none;
+}
+.social__content li a:hover {
+    color: white;
+}
+
+.footer__content {
+    margin: 10em 0em 13em 0em;  
+}
+.footer__content ul {
+    list-style-type: none;
+}
+.footer__content li {
+    float: left;
+}
+.footer__content li a {
+    display: block;
+    font-size: 9pt;
+    font-weight: 200;
+    color: white;
+    padding: 6px 20px 0px 0px;
+    text-decoration: none;
+}
+.footer__content li a:hover {
+    color: white;
+}
+
+.user__signbox {
+    max-width: 450px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login__title {
+    font-size: 16pt;
+    font-weight: 600;
+}
+.login__description {
+    font-size: 11pt;
+    font-weight:200;
+    margin-bottom: 2em;
+}
+.user__signbox label {
+    font-size: 11pt;
+    font-weight: 500;
+}
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.signin, button {
+    background-color: #1E1D67;
+    color: white;
+    padding: 10px 1px;
+    margin: 22px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.signup, button {
+    background-color: transparent;
+    color: black;
+    padding: 8px 10px;
+    margin: -10px 0;
+    border: 1px groove #ccc;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+    border: 1px groove #ccc;
+}
+.backsignin, button {
+    background-color:transparent;
+    color: black;
+    padding: 8px 10px;
+    margin: -10px 0;
+    cursor: pointer;
+    width: 100%;
+}
+span.forgetpassword a{
+    float: right;
+    padding-top: 3px;
+    text-decoration: none;
+    color: black;
+}
+span.forgetpassword a:hover{
+    float: right;
+    padding-top: 3px;
+    color: #ccc;
+}
+.feather-16{
+    width: 16px;
+    height: 16px;
+}
+.feather-24{
+    width: 24px;
+    height: 24px;
+}
+.feather-32{
+    width: 32px;
+    height: 32px;
+}
+
+.panel__left__mobile{
+    width: 100%;
+    background-color: #1E1D67;
+    color: white;
+}
+.content__mobile {
+    width: 100%;
+    padding:2em 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.footer__content__mobile {
+    margin-top: 3em;
+    text-align: center !important;
+}
+.footer__content__mobile ul {
+    list-style-type: none;
+}
+.footer__content__mobile li {
+    float: left;
+}
+.footer__content__mobile li a {
+    display: block;
+    font-size: 10pt;
+    font-weight: 500;
+    color: #000000;
+    padding: 6px 20px 0px 0px;
+    text-decoration: none;
+}
+.footer__content__mobile li a:hover {
+    color: #ccc;
+}
+#view-desktop {display: block;}
+#view-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#view-desktop {display: none;}
+#view-mobile {display: block;}
+ .user__signbox, .column, .panel__right {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .user__signbox {
+    margin-top: 1em;
+ }
+}
